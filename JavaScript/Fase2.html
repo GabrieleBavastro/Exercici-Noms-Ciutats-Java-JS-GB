@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 6 Cities Array</h2>
+
+<button onclick="myFunction()">Push for begin!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    let cityArray = [];
+    let city1 = prompt("Please enter the name of the city 1:");
+        cityArray.push(city1);
+    let city2 = prompt("Please enter the name of the city 2:");
+        cityArray.push(city2);
+    let city3 = prompt("Please enter the name of the city 3:");
+        cityArray.push(city3);
+    let city4 = prompt("Please enter the name of the city 4:");
+        cityArray.push(city4);
+    let city5 = prompt("Please enter the name of the city 5:");
+        cityArray.push(city5);
+    let city6 = prompt("Please enter the name of the city 6:");
+        cityArray.push(city6);
+    cityArray.sort();
+    document.writeln("The list of your cities in alphabetic order is: " + "<br>");
+    document.writeln(cityArray);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 6 Cities replace Strings</h2>
+
+<button onclick="myFunction()">Push for begin!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    let cityArray = [];
+    let city1 = prompt("Please enter the name of the city 1:");
+        city1 = city1.toUpperCase();
+        cityArray.push(city1);
+    let city2 = prompt("Please enter the name of the city 2:");
+        city2 = city2.toUpperCase();
+        cityArray.push(city2);
+    let city3 = prompt("Please enter the name of the city 3:");
+        city3 = city3.toUpperCase();
+        cityArray.push(city3);
+    let city4 = prompt("Please enter the name of the city 4:");
+        city4 = city4.toUpperCase();
+        cityArray.push(city4);
+    let city5 = prompt("Please enter the name of the city 5:");
+        city5 = city5.toUpperCase();
+        cityArray.push(city5);
+    let city6 = prompt("Please enter the name of the city 6:");
+        city6 = city6.toUpperCase();
+        cityArray.push(city6);
+    cityArray.sort();
+    for(let i = 0; i < cityArray.length; i++)
+    cityArray[i] = cityArray[i].replace('A', '4');
+    document.writeln("The list of your cities in alphabetic order is: " + "<br>");
+    document.writeln(cityArray);
+}
+</script>
+
+</body>
+</html>

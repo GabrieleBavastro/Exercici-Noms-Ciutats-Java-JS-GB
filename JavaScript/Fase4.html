@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 6 Cities reverse Strings</h2>
+
+<button onclick="myFunction()">Push for begin!</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    let city1 = prompt("Please enter the name of the city 1:");
+        city1 = city1.toUpperCase();
+        city1 = city1.split("");
+        let cityArray1 = [];
+        cityArray1.push(city1);
+    let city2 = prompt("Please enter the name of the city 2:");
+        city2 = city2.toUpperCase();
+        city2 = city2.split("");
+        let cityArray2 = [];
+        cityArray2.push(city2);
+    let city3 = prompt("Please enter the name of the city 3:");
+        city3 = city3.toUpperCase();
+        city3 = city3.split("");
+        let cityArray3 = [];
+        cityArray3.push(city3);
+    let city4 = prompt("Please enter the name of the city 4:");
+        city4 = city4.toUpperCase();
+        city4 = city4.split("");
+        let cityArray4 = [];
+        cityArray4.push(city4);
+    let city5 = prompt("Please enter the name of the city 5:");
+        city5 = city5.toUpperCase();
+        city5 = city5.split("");
+        let cityArray5 = [];
+        cityArray5.push(city5);
+    let city6 = prompt("Please enter the name of the city 6:");
+        city6 = city6.toUpperCase();
+        city6 = city6.split("");
+        let cityArray6 = [];
+        cityArray6.push(city6);
+    let cityArray = [];
+        cityArray.push (cityArray1);
+        cityArray.push (cityArray2);
+        cityArray.push (cityArray3);
+        cityArray.push (cityArray4);
+        cityArray.push (cityArray5);
+        cityArray.push (cityArray6);
+
+    cityArray = cityArray.sort();
+    let cityString = cityArray.toString();
+    cityString = cityString.split("");
+    newCityArray = [];
+    newCityArray.push(cityString);
+    newCityArray = newCityArray.reverse;
+
+    document.writeln("The reverse list of your cities in alpahbetic order is: " + "<br>");
+    document.writeln(newCityArray);
+}
+</script>
+
+</body>
+</html>
