@@ -14,13 +14,20 @@ public class Fase3 {
 	String city5 = myObj.nextLine();
 	String city6 = myObj.nextLine();
 	
-	//replaces all occurrences of 'a' to '4'
-	String replaceStringCity1=city1.replace('a','4'); 
-	String replaceStringCity2=city2.replace('a','4');
-	String replaceStringCity3=city3.replace('a','4');
-	String replaceStringCity4=city4.replace('a','4');
-	String replaceStringCity5=city5.replace('a','4');
-	String replaceStringCity6=city6.replace('a','4');
+	city1 = city1.toUpperCase();
+	city2 = city2.toUpperCase();
+	city3 = city3.toUpperCase();
+	city4 = city4.toUpperCase();
+	city5 = city5.toUpperCase();
+	city6 = city6.toUpperCase();
+	
+	//replaces all occurrences of 'A' to '4'
+	String replaceStringCity1=city1.replace('A','4'); 
+	String replaceStringCity2=city2.replace('A','4');
+	String replaceStringCity3=city3.replace('A','4');
+	String replaceStringCity4=city4.replace('A','4');
+	String replaceStringCity5=city5.replace('A','4');
+	String replaceStringCity6=city6.replace('A','4');
 
 	//Create an Array
 	String[] ArrayCiutatsModificades = {replaceStringCity1, replaceStringCity2, replaceStringCity3, replaceStringCity4, replaceStringCity5, replaceStringCity6};

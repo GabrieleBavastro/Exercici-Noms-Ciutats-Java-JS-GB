@@ -9,7 +9,7 @@ public class Fase2 {
 		}
 	Arrays.sort(arrayCiutat);
 	for (int i=0; i<arrayCiutat.length;i++){
-	System.out.println("City " + (i+1) + ": " + arrayCiutat [i]);}
+	System.out.println("Your cities in Alphabetic order are: " + (i+1) + " - " + arrayCiutat [i]);}
 
 	}
 }

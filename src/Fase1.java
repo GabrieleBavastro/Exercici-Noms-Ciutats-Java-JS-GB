@@ -20,5 +20,5 @@ public class Fase1 {
 	System.out.println("City Number 4: " + city4);
 	System.out.println("City Number 5: " + city5);
 	System.out.println("City Number 6: " + city6);
-  }
+	myObj.close();}
 }

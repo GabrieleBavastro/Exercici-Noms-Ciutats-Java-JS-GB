@@ -49,14 +49,10 @@ function myFunction() {
         cityArray.push (cityArray6);
 
     cityArray = cityArray.sort();
-    let cityString = cityArray.toString();
-    cityString = cityString.split("");
-    newCityArray = [];
-    newCityArray.push(cityString);
-    newCityArray = newCityArray.reverse;
+    let cityString = cityArray.toString().split('').reverse().join('')
 
     document.writeln("The reverse list of your cities in alpahbetic order is: " + "<br>");
-    document.writeln(newCityArray);
+    document.writeln(cityString);
 }
 </script>
 
